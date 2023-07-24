@@ -1,0 +1,128 @@
+.headerbar {
+    background-color: black;
+    padding: 0.2rem;
+  }
+  
+  .headertext {
+    font-family: "Asap Condensed", sans-serif;
+    color: antiquewhite;
+    font-size: small;
+    text-align: center;
+  }
+  
+  .mainbar-logo {
+    display: inline-block;
+    width: 28%;
+    vertical-align: middle;
+  }
+  
+  .mainbar-title {
+    display: inline-block;
+    width: 70%;
+    vertical-align: middle;
+    text-align: center;
+    height: 100%;
+    line-height: 76px;
+    font-family: "Asap Condensed", sans-serif;
+    background-image: url(../recursos/imagenes/banner.jpg);
+    color: white;
+  }
+  
+  .mainbar-title:hover {
+    transform: scale(1, 1.1);
+  }
+  
+  .nav-link {
+    font-family: "Asap Condensed", sans-serif;
+  }
+  .nav-link:hover {
+    font-weight: bold;
+  }
+  .nav-link:active {
+    background-color: rgb(44, 60, 82);
+  }
+  
+  .navbar {
+    background-image: linear-gradient(to left, rgb(26, 33, 64) 10.9%, rgb(81, 84, 115) 87.1%);
+  }
+  
+  #navbarSupportedContent {
+    justify-content: end;
+  }
+  
+  .navbar-brand img {
+    display: none;
+  }
+  
+  /*Main y navbar mobile*/
+  @media (max-width: 768px) {
+    .navbar-brand img {
+      display: block;
+      width: 150px;
+    }
+    .mainbar-logo {
+      display: none;
+    }
+    .mainbar-title {
+      width: 100%;
+    }
+  }
+
+table {
+    width: 50%;
+    border: 2px solid #000;
+    margin: auto;
+
+}
+th, td {
+   width: 20%;
+   vertical-align: middle;
+   border: 1px solid #000;
+   border-collapse: collapse;
+   padding: 0.3em;
+   caption-side: bottom;
+}
+th {
+   background: #eee;
+}
+
+.form-container {
+  font-family: "Asap Condensed", sans-serif;
+  text-align: center;
+  font-size: larger;
+  padding-top: 50px;
+}
+
+.table-container {
+  font-family: "Asap Condensed", sans-serif;
+  font-size: larger;
+  text-align: center;
+  padding: 5%;
+}
+
+.photo-gallery {
+  margin-top: 20px;
+  font-family: "Asap Condensed", sans-serif;
+  text-align: center;
+  border-top-left-radius: var(--bs-card-inner-border-radius);
+  border-top-right-radius: var(--bs-card-inner-border-radius);
+}
+
+#mensaje {
+  font-family: "Asap Condensed", sans-serif;
+  justify-content: center;
+  text-align: center;
+  background: #f4f7f8; 
+  color: #59afc0; 
+  font-weight: bold; 
+  padding: 25px;
+  border: 2px solid #abecf9; 
+  border-radius: 6px;
+}
+
+#estilo-footer {
+  color: rgba(175, 212, 212, 0.684);
+  font-family: "Asap Condensed", sans-serif;
+  background-image: linear-gradient(to left, rgb(26, 33, 64) 10.9%, rgb(81, 84, 115) 87.1%);
+  height: 30px;
+}
