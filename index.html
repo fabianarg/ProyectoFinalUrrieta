@@ -1,40 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Nos dedicamos a la fabricación y distribución de trajes de baño personalizados, utilizando materiales de calidad">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nuestro catálogo incluye variedad de mallas y trajes de baño, además de accesorios para complementar tu outfit playero">
     <meta name="keywords" content="TRAJES DE BAÑO, MALLAS, ROPA PLAYERA, MUJER, MALLA PLAYERA DAMA, ENTERIZOS">
-    <link rel="shortcut icon" href="./recursos/logo/logo.jfif" type="image/x-icon"/>
-    <link rel="stylesheet" href="./librerias/bootstrap-5.3.0-alpha1-dist/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/estilos.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@200&display=swap" rel="stylesheet"/>
-    <!--Vincular js -->
-    <script src="./js/bases.js"></script>
-    <script defer src="/js/logica.js"></script>
-    <title>Pedidos | Agua salada swimwear</title>
-  </head>
+    <link rel="shortcut icon" href="../recursos/logo/logo.jfif" type="image/x-icon"/>
+    <link rel="stylesheet" href="../librerias/bootstrap-5.3.0-alpha1-dist/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@200&display=swap" rel="stylesheet">
+    <script defer src="../js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Catálogo | Agua salada swimwear</title>
+</head>
 
-  <body>
+<body>
     <header>
       <div class="headerbar">
-        <h4 class="headertext">
-          DELIVERY EN SAN DIEGO, NAGUANAGUA Y VALENCIA SIN COSTO
-        </h4>
+          <h4 class="headertext">DELIVERY EN SAN DIEGO, NAGUANAGUA Y VALENCIA SIN COSTO</h4>
       </div>
-
+  
       <div class="mainbar">
-        <a href="#">
-          <img src="./recursos/logo/logo.jfif" alt="Logo-marca" class="mainbar-logo"/>
-        </a>
-        <h1 class="mainbar-title">PERSONALIZA TU PEDIDO</h1>
+          <a href="../index.html">
+            <img src="../recursos/logo/logo.jfif" alt="Logo-marca" class="mainbar-logo">
+          </a>
+          <h1 class="mainbar-title">PRODUCTOS</h1>
       </div>
-
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="../index.html">
             <img src="../recursos/logo/logo.jfif" alt="Logo-marca">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,69 +41,39 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./pages/productos.html">Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pedidos</a>
+                <a class="nav-link active" aria-current="page" href="#">Productos</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-
-      <div class="form-container">
-        <h1>Solicita tu traje de baño a medida:</h1>
-        <form id="formulario-interactivo">
-          <label for="talla">Talla:</label>
-          <select id="talla" required>
-            <option value="">Selecciona una talla</option>
-          </select>
-          <br>
-          <label for="modelo">Modelo:</label>
-          <select id="modelo" required>
-            <option value="">Selecciona el producto</option>
-          </select>
-          <br>
-          <button type="button" id="guardarBtn" disabled onclick="mostrarMensaje()">Guardar</button>
-        </form>
-        <div id="mensaje"></div>
+  
+    <section class="wrapper">
+      <div class="contenedor-items">
+      <!--Se llena con el array de JS-->
       </div>
-
-
-      <div class="table-container">
-        <h2>Tabla de Medidas</h2>
-        <table>
-          <tr>
-            <th>Talla</th>
-            <th>Medidas</th>
-          </tr>
-          <tr>
-            <td>XS</td>
-            <td>80-85 / 60-65 / 85-90</td>
-          </tr>
-          <tr>
-            <td>S</td>
-            <td>85-90 / 65-70 / 90-95</td>
-          </tr>
-          <tr>
-            <td>M</td>
-            <td>90-95 / 70-75 / 95-100</td>
-          </tr>
-          <tr>
-            <td>L</td>
-            <td>95-100 / 75-80 / 100-105</td>
-          </tr>
-          <tr>
-            <td>XL</td>
-            <td>100-105 / 80-85 / 105-110</td>
-          </tr>
-        </table>
+      <div class="carrito" id="carrito">
+        <div class="header-carrito">
+            <h2>Tu lista de compras</h2>
+        </div>
+      
+        <div class="carrito-items">
+        </div>
+        <div class="carrito-total">
+            <div class="fila">
+                <strong>Tu Total</strong>
+                <span class="carrito-precio-total">
+                </span>
+            </div>
+            <button class="btn-pagar">Pagar<i class="fa-solid fa-bag-shopping"></i> </button>
       </div>
+      </div>
+    </section>
+    
 
     <footer id="estilo-footer">
       <h5>2023 - Desarrollado por Fabiana Urrieta</h5>
     </footer>
-
-  </body>
+</body>
 </html>

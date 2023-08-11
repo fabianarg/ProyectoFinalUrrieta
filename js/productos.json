@@ -1,0 +1,41 @@
+[
+    { "id": "tdb-01", 
+    "nombre": "Cuyagua", 
+    "imagen": "../recursos/imagenes/tdb-azulestampado-bacterias.jpeg", 
+    "precio": 17},
+
+    { "id": "tdb-02", 
+    "nombre": "Cata", 
+    "imagen": "../recursos/imagenes/tdb-fucsiasatin-sintiras.jpeg", 
+    "precio": 20},
+
+    { "id": "tdb-03", 
+    "nombre": "Bahia", 
+    "imagen": "../recursos/imagenes/tdb-azulsatinado.jpeg", 
+    "precio": 22},
+
+    { "id": "tdb-04", 
+    "nombre": "Roques", 
+    "imagen": "../recursos/imagenes/tdb-negroclasic.jpeg", 
+    "precio": 18},
+
+    { "id": "tdb-05", 
+    "nombre": "Salinas", 
+    "imagen": "../recursos/imagenes/tdb-fucsiasatin-tiras.jpeg", 
+    "precio": 20},
+
+    { "id": "tdb-06", 
+    "nombre": "Choroni", 
+    "imagen": "../recursos/imagenes/tdb-rosasatin.jpeg", 
+    "precio": 23},
+
+    { "id": "tdb-07", 
+    "nombre": "Chuao", 
+    "imagen": "../recursos/imagenes/tdb-rosamanchado.jpeg", 
+    "precio": 18},
+
+    { "id": "tdb-08", 
+    "nombre": "Margarita", 
+    "imagen": "../recursos/imagenes/tdb-enterizorosa.jpeg", 
+    "precio": 28}
+  ]
